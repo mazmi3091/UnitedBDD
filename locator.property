@@ -1,0 +1,13 @@
+iad = //input[@id='Origin']
+iadClick = //div[@data-code='IAD']
+bos = //input[@id='Destination']
+bosClick = //div[@data-code='BOS']
+depDate = //input[contains(@id,'DepartDate')]
+retDate = //input[@id='ReturnDate']
+nonstop = //input[@id='NonStopOnly']
+searchButton = //button[@id='flightBookingSubmit']
+firstFlight = //input[@aria-describedby='sr_product_ECONOMY_125-641-UA']
+secondFlight = //input[@aria-describedby='sr_product_ECONOMY_130-389-UA']
+popup = //button[@class='modalCloseImg simplemodal-close']
+total = //em[contains(.,'Total')]
+price = .//*[@id='bookingCart']/div[4]/div[1]/div
